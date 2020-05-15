@@ -21,7 +21,6 @@ class App < Sinatra::Base
      string +="#{@phr}\n"
     end
     string
-
   end
 
 
