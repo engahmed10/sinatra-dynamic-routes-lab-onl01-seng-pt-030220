@@ -34,7 +34,7 @@ class App < Sinatra::Base
       @add= @number1 + @number2
       @sub = @number2 - @number1
       @add.to_s
-      @sub.to_s
+    #  @sub.to_s
   end
 
 
