@@ -33,7 +33,8 @@ class App < Sinatra::Base
       @number2=params[:number2].to_i
       @add= @number1 + @number2
       @sub = @number2 - @number1
-      @number.to_s
+      @add.to_s
+      @sub.to_s
   end
 
 
