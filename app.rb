@@ -32,7 +32,7 @@ class App < Sinatra::Base
       @operations =params[:operation]
       @number1=params[:number1].to_i
       @number2=params[:number2].to_i
-
+      
       case operations
       when @add
         @number1 + @number2
