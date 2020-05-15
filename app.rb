@@ -13,7 +13,7 @@ class App < Sinatra::Base
     @number.to_s
   end
 
-  get ' /say/:number/:phrase'  do
+  get '/say/:number/:phrase'  do
     @num=params[:number].to_i
     @phr=params[:phrase]
     string=""
