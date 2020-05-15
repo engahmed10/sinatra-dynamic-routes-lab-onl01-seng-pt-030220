@@ -5,6 +5,7 @@ class App < Sinatra::Base
 
   get '/reversename/:name' do
     @user=params[:name]
+    
 
   end
 
