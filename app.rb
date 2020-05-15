@@ -20,7 +20,7 @@ class App < Sinatra::Base
     @num.times {
      string +="#{@phr}\n"
    }
-    string
+  #  string
   end
 
 
