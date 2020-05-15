@@ -18,7 +18,7 @@ class App < Sinatra::Base
     @phr=params[:phrase]
     string=""
     @num.times do
-     string +="#{@phr}"
+     string +="#{@phr}\n"
     end
   end
 
