@@ -7,6 +7,7 @@ class App < Sinatra::Base
     @user=params[:name]
     
 
+
   end
 
 end
