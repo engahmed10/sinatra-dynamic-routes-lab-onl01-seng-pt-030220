@@ -11,7 +11,6 @@ class App < Sinatra::Base
     @num=params[:number].to_i
     @number = @num ** @num
     "#{@number}"
-
   end
 
 end
