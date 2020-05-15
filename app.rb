@@ -5,7 +5,7 @@ class App < Sinatra::Base
 
   get '/reversename/:name' do
     
-    
+
   end
 
 end
